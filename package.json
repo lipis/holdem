@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "prettier": "1.11.1",
+    "prettier-plugin-java": "0.0.2"
+  },
+  "scripts": {
+    "fix": "yarn prettier --write",
+    "prettier": "prettier --ignore-path .gitignore  \"**/*.{java,json,md}\"",
+    "test": "yarn prettier --list-different"
+  }
+}
